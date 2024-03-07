@@ -1,5 +1,5 @@
 <h1 align="center">Merhaba , Ben Maruf Acet</h1>
-<h3 align="center"> Front-End Developer Uzmanı </h3>
+<h3 align="center"> Front-End Developer </h3>
 
 - 👨‍💻 Projelerim > [https://github.com/acetmaruf](https://github.com/acetmaruf)
 

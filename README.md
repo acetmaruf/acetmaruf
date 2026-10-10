@@ -46,7 +46,7 @@ Right now I'm building **[Clopify](https://clopify.com)**, a commission-free onl
       <br /><br />
       • Restaurant ordering pages and free QR table menus<br />
       • Orders delivered straight to WhatsApp<br />
-      • Menu import from a photo of the printed menu<br />
+      • Menu import from a photo of the printed menu (vision LLM)<br />
       • Owner panel, kitchen ticket printing, regular-customer badges<br />
       • Google Maps "Order" link integration
       <br /><br />
@@ -94,6 +94,10 @@ Right now I'm building **[Clopify](https://clopify.com)**, a commission-free onl
     <td>PostgreSQL schema design · SQL migrations · Row Level Security · Supabase Storage</td>
   </tr>
   <tr>
+    <td valign="top"><b>AI</b></td>
+    <td>LLM integrations in production (Gemini &amp; Claude APIs) · Vision-based menu extraction · In-app assistant · AI-assisted development with Claude Code</td>
+  </tr>
+  <tr>
     <td valign="top"><b>Product</b></td>
     <td>SEO &amp; structured data · Google Business Profile integration · QR flows · WhatsApp ordering</td>
   </tr>
@@ -109,11 +113,7 @@ Right now I'm building **[Clopify](https://clopify.com)**, a commission-free onl
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=acetmaruf&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=2E1A47&title_color=FFCF33&icon_color=FF5A36&text_color=FBF6EC&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=acetmaruf&hide_border=true&background=2E1A47&ring=FF5A36&fire=FFCF33&currStreakLabel=FFCF33&sideLabels=FBF6EC&currStreakNum=FBF6EC&sideNums=FBF6EC&dates=C9BFD9&stroke=4A3466" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=acetmaruf&hide_border=true&bg_color=2E1A47&color=FBF6EC&line=FF5A36&point=FFCF33&area=true&area_color=FF5A36&title_color=FFCF33&custom_title=Contribution%20graph" alt="Activity graph" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=acetmaruf&layout=compact&hide_border=true&bg_color=2E1A47&title_color=FFCF33&text_color=FBF6EC&langs_count=6" alt="Top languages" />
 </p>
 
 <p align="center">

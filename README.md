@@ -10,6 +10,8 @@
 </p>
 
 <p align="center">
+  <a href="https://maruf-acet.vercel.app"><img src="https://img.shields.io/badge/Portfolio-141A2E?style=for-the-badge&logo=vercel&logoColor=C69A4B" alt="Portfolio" /></a>
+  <a href="https://craftoon.com.tr"><img src="https://img.shields.io/badge/craftoon.com.tr-FF5A36?style=for-the-badge&logo=googlechrome&logoColor=FBF6EC" alt="Craftoon" /></a>
   <a href="https://clopify.com"><img src="https://img.shields.io/badge/clopify.com-FF5A36?style=for-the-badge&logo=googlechrome&logoColor=white" alt="clopify.com" /></a>
   <a href="https://www.linkedin.com/in/acetmaruf"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.linkedin.com/company/clopify-tr"><img src="https://img.shields.io/badge/Clopify%20on%20LinkedIn-2E1A47?style=for-the-badge&logo=linkedin&logoColor=FFCF33" alt="Clopify on LinkedIn" /></a>
@@ -54,7 +56,7 @@ Right now I'm building **[Clopify](https://clopify.com)**, a commission-free onl
     </td>
     <td width="50%" valign="top">
       <h4>🎨 Craftoon</h4>
-      Clopify's web studio for small businesses.
+      Clopify's web studio for small businesses. [craftoon.com.tr](https://craftoon.com.tr)
       <br /><br />
       • Fast, mobile-first websites for local businesses<br />
       • Admin panels so owners manage their own content<br />

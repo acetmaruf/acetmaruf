@@ -1,0 +1,60 @@
+name: günlük kayıt yedeği
+
+# Bilgisayardaki günlük kayıt (gunluk-katki.sh) o gün hiç çalışmadıysa
+# GUNLUK.md'ye o günün kaydını buradan yazar. Çalıştıysa hiçbir şey yapmaz.
+on:
+  schedule:
+    # 22.00 ve 23.00 Türkiye saati (GitHub zamanlaması gecikebildiği için iki deneme)
+    - cron: "0 19 * * *"
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gunluk-yedek
+  cancel-in-progress: false
+
+jobs:
+  yedek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      TZ: Europe/Istanbul
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bugünün kaydı var mı bak, yoksa yaz
+        run: |
+          AYLAR=(Ocak Şubat Mart Nisan Mayıs Haziran Temmuz Ağustos Eylül Ekim Kasım Aralık)
+          GUN=$(date +%Y-%m-%d)
+          AY_NO=$((10#$(date +%m)))
+          BASLIK="## $((10#$(date +%d))) ${AYLAR[$((AY_NO-1))]} $(date +%Y)"
+
+          if grep -qxF "$BASLIK" GUNLUK.md; then
+            echo "$GUN kaydı zaten var, yedeğe gerek yok."
+            exit 0
+          fi
+
+          python3 - "$BASLIK" <<'PY'
+          import sys
+          baslik = sys.argv[1]
+          metin = open("GUNLUK.md", encoding="utf-8").read()
+          bas, _, kalan = metin.partition("\n## ")
+          yeni = bas.rstrip("\n") + "\n\n" + baslik + "\n\n- Bilgisayar başında değildim, kayıt bulut yedeğinden.\n"
+          if kalan:
+              yeni += "\n## " + kalan
+          open("GUNLUK.md", "w", encoding="utf-8").write(yeni)
+          PY
+
+          git config user.name "Maruf Acet"
+          git config user.email "marufacet@gmail.com"
+          git add GUNLUK.md
+          git commit -m "Çalışma günlüğü, $GUN"
+          for deneme in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            sleep 15
+            git pull --rebase origin main
+          done
+          exit 1

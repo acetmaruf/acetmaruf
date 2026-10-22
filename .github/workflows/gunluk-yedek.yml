@@ -4,9 +4,10 @@ name: günlük kayıt yedeği
 # GUNLUK.md'ye o günün kaydını buradan yazar. Çalıştıysa hiçbir şey yapmaz.
 on:
   schedule:
-    # 22.00 ve 23.00 Türkiye saati (GitHub zamanlaması gecikebildiği için iki deneme)
-    - cron: "0 19 * * *"
-    - cron: "0 20 * * *"
+    # 19.00 ve 21.00 Türkiye saati. GitHub zamanlaması saatlerce gecikebiliyor
+    # (21 Ekim'deki çalışma 3 saat geç başladı), bu yüzden erken başlıyor.
+    - cron: "0 16 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,6 +29,11 @@ jobs:
       - name: Bugünün kaydı var mı bak, yoksa yaz
         run: |
           AYLAR=(Ocak Şubat Mart Nisan Mayıs Haziran Temmuz Ağustos Eylül Ekim Kasım Aralık)
+          # Gece yarısından sonra başladıysa yeni günün kaydını açma, onu bilgisayar yazar.
+          if [ "$((10#$(date +%H)))" -lt 6 ]; then
+            echo "Saat $(date +%H.%M), gecikmiş çalışma. Yeni günün kaydı açılmadı."
+            exit 0
+          fi
           GUN=$(date +%Y-%m-%d)
           AY_NO=$((10#$(date +%m)))
           BASLIK="## $((10#$(date +%d))) ${AYLAR[$((AY_NO-1))]} $(date +%Y)"

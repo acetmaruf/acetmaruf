@@ -2,6 +2,10 @@
 
 Her gün hangi projede çalıştığımın kısa kaydı. Otomatik tutulur.
 
+## 23 Ekim 2026
+
+- Bugün kod commit'i yok, plan ve içerik günü.
+
 ## 22 Ekim 2026
 
 - Video ve içerik üretimi, 5 commit

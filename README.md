@@ -5,12 +5,12 @@
 
 <p align="center">
   <a href="https://clopify.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=FF5A36&center=true&vCenter=true&width=620&lines=Building+commission-free+ordering+for+restaurants;Every+order%2C+straight+to+the+restaurant's+WhatsApp;Next.js+%C2%B7+TypeScript+%C2%B7+Supabase+%C2%B7+Vercel;Shipping+from+Istanbul+%F0%9F%87%B9%F0%9F%87%B7" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=FF5A36&center=true&vCenter=true&width=620&lines=Building+commission-free+ordering+for+restaurants;Every+order%2C+straight+to+the+restaurant's+WhatsApp;Next.js+%C2%B7+TypeScript+%C2%B7+Supabase+%C2%B7+Vercel;Shipping+from+T%C3%BCrkiye+%F0%9F%87%B9%F0%9F%87%B7" alt="Typing intro" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://maruf-acet.vercel.app"><img src="https://img.shields.io/badge/Portfolio-141A2E?style=for-the-badge&logo=vercel&logoColor=C69A4B" alt="Portfolio" /></a>
+  <a href="https://marufacet.com"><img src="https://img.shields.io/badge/marufacet.com-141A2E?style=for-the-badge&logo=googlechrome&logoColor=C69A4B" alt="marufacet.com" /></a>
   <a href="https://craftoon.com.tr"><img src="https://img.shields.io/badge/craftoon.com.tr-FF5A36?style=for-the-badge&logo=googlechrome&logoColor=FBF6EC" alt="Craftoon" /></a>
   <a href="https://clopify.com"><img src="https://img.shields.io/badge/clopify.com-FF5A36?style=for-the-badge&logo=googlechrome&logoColor=white" alt="clopify.com" /></a>
   <a href="https://www.linkedin.com/in/acetmaruf"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -22,7 +22,7 @@
 
 ### 👋 About me
 
-I'm a founder and full-stack developer based in Istanbul. I design, build and ship my own products end to end, from the database to the last pixel of the UI.
+I'm a founder and full-stack developer. I design, build and ship my own products end to end, from the database to the last pixel of the UI. More at **[marufacet.com](https://marufacet.com)**.
 
 Right now I'm building **[Clopify](https://clopify.com)**, a commission-free online ordering platform for restaurants and cafés in Türkiye. Customers order from the restaurant's own page and the order lands directly in the restaurant's WhatsApp, with no marketplace in between.
 
@@ -30,7 +30,7 @@ Right now I'm building **[Clopify](https://clopify.com)**, a commission-free onl
 <summary><b>🇹🇷 Türkçe</b></summary>
 <br />
 
-İstanbul'da yaşayan bir kurucu ve full-stack geliştiriciyim. Kendi ürünlerimi veritabanından arayüzün son pikseline kadar uçtan uca tasarlayıp geliştiriyorum.
+Kurucu ve full-stack geliştiriciyim. Kendi ürünlerimi veritabanından arayüzün son pikseline kadar uçtan uca tasarlayıp geliştiriyorum. Daha fazlası **[marufacet.com](https://marufacet.com)** adresinde.
 
 Şu an **[Clopify](https://clopify.com)** üzerinde çalışıyorum. Clopify, Türkiye'deki restoran ve kafeler için komisyonsuz online sipariş platformu. Müşteri restoranın kendi sayfasından sipariş verir, sipariş aracısız doğrudan restoranın WhatsApp'ına düşer.
 

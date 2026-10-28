@@ -2,6 +2,10 @@
 
 Her gün hangi projede çalıştığımın kısa kaydı. Otomatik tutulur.
 
+## 28 Ekim 2026
+
+- Bugün kod commit'i yok, plan ve içerik günü.
+
 ## 27 Ekim 2026
 
 - GitHub'da 2 katkı

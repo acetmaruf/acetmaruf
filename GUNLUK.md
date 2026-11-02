@@ -4,7 +4,7 @@ Her gün hangi projede çalıştığımın kısa kaydı. Otomatik tutulur.
 
 ## 2 Kasım 2026
 
-- GitHub'da 1 katkı
+- GitHub'da 2 katkı
 
 ## 1 Kasım 2026
 

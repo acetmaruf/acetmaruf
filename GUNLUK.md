@@ -2,6 +2,10 @@
 
 Her gün hangi projede çalıştığımın kısa kaydı. Otomatik tutulur.
 
+## 16 Kasım 2026
+
+- Bugün kod commit'i yok, plan ve içerik günü.
+
 ## 15 Kasım 2026
 
 - Bugün kod commit'i yok, plan ve içerik günü.
